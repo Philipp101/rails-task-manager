@@ -1,0 +1,6 @@
+<%= form_for(@task) do |f|%>
+<%= f.text_field :title, placeholder: 'Title' %>
+<%= f.text_field :details, placeholder: 'Details' %>
+<%= f.check_box :completed %>
+<%= f.submit %>
+<% end %>
